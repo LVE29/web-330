@@ -1,0 +1,46 @@
+/*
+  Pragmatic JavaScript
+  Chapter 1
+  Programming Assignment
+
+  Author: Leslie Espino
+  Date:  April 5th, 2026
+  Filename:
+*/
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #1b1b2f, #162447);
+  color: white;
+}
+
+#mainContainer {
+  width: 400px;
+  margin: 50px auto;
+  background-color: rgba(0, 0, 0, 0.75);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+input,
+select,
+button {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+
+button {
+  background-color: #e43f5a;
+  color: white;
+  cursor: pointer;
+}
+
+#characterOutput {
+  margin-top: 20px;
+}
+
+#characterOutput p {
+  margin: 8px 0;
+}
